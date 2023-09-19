@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+cd nested-folder-1/nested-folder-2/nested-folder-3/husky-lint-staged-with-nested-folders
 npx lint-staged
